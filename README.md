@@ -36,3 +36,9 @@ On the device:
 * download Xposed zip for arm from here http://dl-xda.xposed.info/framework/sdk23/arm/
 * flash the zip using Flashfire
 * install Xposed installer from https://forum.xda-developers.com/showthread.php?t=3034811
+
+## Fake Wifi
+Some apps don't cope well with connection over ethernet. They either don't see it or don't accept it as valid connection.
+Install [the Fake Wifi](https://play.google.com/store/apps/details?id=eu.chylek.adam.fakewifi) Xposed module to deceive those apps.
+After you install the app, activate it in Xposed and reboot (there's an option for that in the notification when the app is installed). 
+Now simply open the app, choose from the list apps that should be deceived and you are all set. They should now think the are on WiFi.
